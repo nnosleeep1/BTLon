@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATY.VN</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    
+</head>
+<style>
+    [class*=col-]{
+        padding: 0px;
+        margin: 0px;
+    }
+     
+</style>
+
+<body>
+    <div class="container">
+        <!--header-->
+        <div class="row">
+          <div class="col-2 mt-1">
+              <a href="home.html"><img src="../img/logo.png" alt="" style="width:100%;height: 100% ;"></a>
+              
+              
+          </div>
+          <div class="col-5 mt-4">
+              <form class="d-flex" style="margin-left: 30px;">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+              
+          </div>
+          <div class="col-5" >
+              <form action="" class="d-flex  " style="margin-left: 30px;">
+               <a href="" class="d-flex" style="text-decoration: none;"> 
+              <img src="../img/phone.png" alt="" class="mt-3" style="width: 50px; height: 50px;">
+              <h5 style="color: brown;margin-top: 30px;text-decoration: none;">0909 784 262</h5>
+              </a> 
+              <a href="shopping.html" class="d-flex" style="text-decoration: none;">
+                <img src="../img/iconGioHang.jpg" alt="" srcset="" style="width: 50px;height: 50px;margin-top: 20px;margin-left: 30px;">
+              <h5 style="color: brown;margin-top: 30px;">Giỏ Hàng</h5>
+              </a>
+              
+              <a href="login.html" class="d-flex" style="text-decoration: none;">
+                <img src="../img/iconaccount.png" alt="" srcset="" style="width: 50px;height: 50px;margin-top: 20px;margin-left: 20px;">
+                <h5 style="color: brown;margin-top: 30px;">Tài Khoản</h5>
+              </a>
+                
+                  
+             
+              </form>
+              
+          </div>
+      </div>
+      <div class="row" style="background-color: rgb(208, 47, 47);">
+          <div class="col-12 ">
+              <ul class="nav" style="margin-left: 25%;" >
+                  <li class="nav-item" >
+                    <a class="nav-link " aria-current="page" href="home.html" style="color: aliceblue;">Trang Chủ</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link " aria-current="page" href="product.html" style="color: aliceblue;">Sản Phẩm</a>
+                  </li>
+                  <li class="nav-item">
+                      <div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            Mèo Thần Tài
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Giá <500.000 </a></li>
+                            <li><a class="dropdown-item" href="#">Giá <1.000.000 </a></li>
+                            <li><a class="dropdown-item" href="#">Giá >1.000.000 </a></li>
+                          </ul>
+                        </div>
+                  </li>
+                  <li class="nav-item">
+                      <div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            Vật Phẩm Phong Thủy
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Tượng Rồng </a></li>
+                            <li><a class="dropdown-item" href="#">Tượng Thiên Nga </a></li>
+                            <li><a class="dropdown-item" href="#">Tượng Trâu </a></li>
+                            <li><a class="dropdown-item" href="#">Tượng Vàng Tài Lộc </a></li>
+                            <li><a class="dropdown-item" href="#">Tùy Hưu Chiêu  </a></li>
+                            <li><a class="dropdown-item" href="#">Cá Chép Vũ Môn </a></li>
+                          </ul>
+                        </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="information.html" style="color: aliceblue;">Tin Tức</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sitemap.html" style="color: aliceblue;">Địa Chỉ</a>
+                  </li>
+                  
+                </ul>
+
+          </div>
+      </div>
+      <!--header-->
+        <div class="row mt-3">
+            <div class="col-12">
+               <h2 style="text-align: center;color: brown;">Mèo Thần Tài Bán Chạy</h2>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12">
+                <img src="../img/banner-meo-than-tai.jpg" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-text" >Mèo thần tài vẫy tay 13cm chạy bằng pin</h5>
+                      <strike style="color: rgb(163, 154, 154)" id="">409.000₫</strike>
+                      <span style="color: brown;" >315.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s1">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m1" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài vẫy tay 13cm chạy bằng pin</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">409.000₫</strike>
+                                    <span style="color: brown;">315.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Rộng x Cao:</i></b>13cm x 13cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, tấm đệm gấm đỏ, đóng gói bọc xốp</p>
+                                    <p><b><i>Chữ trên tay :</i></b> Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); Thỏi vàng trên tay giúp sang giàu, nắm chặt của cải, bạc vàng trong tay, một đời thịnh vượng</p>
+                                    <p><b><i>Mèo chạy bằng pin</i></b></p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài thiên kim vạn lượng</h5>
+                      <strike style="color: rgb(163, 154, 154)">1.040.000₫</strike>
+                      <span style="color: brown;">799.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s2">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m2" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài thiên kim vạn lượng</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">1.040.000₫</strike>
+                                    <span style="color: brown;">799.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 20cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>Tay trái vẫy có dòng chữ “Kim vận phát tài“; Tay phải mèo cầm hũ ngân lượng đầy chữ “Phát” tượng trưng cho sự giàu có, phát đạt; Trước bụng mèo có 5 chú mèo nhỏ tượng trưng cho “Ngũ phúc” bao gồm: Thọ – Phú – Khang – Đức – Khảo chung mệnh</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài thỏi vàng 16cm</h5>
+                      <strike style="color: rgb(163, 154, 154)">509.000₫</strike>
+                      <span style="color: brown;">389.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s3">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m3" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài thỏi vàng 16cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">509.000₫</strike>
+                                    <span style="color: brown;">389.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 16cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); Thỏi vàng trên tay giúp sang giàu, nắm chặt của cải, bạc vàng trong tay, một đời thịnh vượng; hai chữ “Chiêu phúc” trên bụng mèo giúp xua đi xui rủi, đón vạn đều bình an.</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>    
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo Thần Tài Có Câu Đối 16cm</h5>
+                      <strike style="color: rgb(163, 154, 154)">509.000₫</strike>
+                      <span style="color: brown;">389.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s4">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m4" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo Thần Tài Có Câu Đối 16cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">509.000₫</strike>
+                                    <span style="color: brown;">389.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 16cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); – Chữ trên câu đối: Kim Vận Chiêu Phúc; Bao tiền trước bụng ngụ ý tiền của dồi dào, làm ăn phát đạt</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài song vàng hưng thịnh 35cm </h5>
+                      <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                      <span style="color: brown;">1.799.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s5">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m5" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài song vàng hưng thịnh 35cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                                    <span style="color: brown;">1.799.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b>35cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, tấm đệm gấm đỏ, đóng gói bọc xốp</p>
+                                    <p><b><i>Ý Nghĩa:</i></b> Kinh doanh thịnh vượng; Chữ trên tay vẩy: Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); Song vàng: thu hút tài lộc, kinh doanh phát tài</p>
+                                  
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài kim vận hồng phát 23cm</h5>
+                      <strike style="color: rgb(163, 154, 154)">1.400.000₫</strike>
+                      <span style="color: brown;">1.090.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s6">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m6" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài kim vận hồng phát 23cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">1.400.000₫</strike>
+                                    <span style="color: brown;">1.090.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 23cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>Thuận Buồm Xuôi Gió; Chữ trên tay vẩy: Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài ); Tay trái cầm túi tiền và bao tiền trước bụng: của cải dồi dào, làm ăn phát đạt,…</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài may mắn Đại Cát 35cm</h5>
+                      <strike style="color: rgb(163, 154, 154)">2.500.000₫</strike>
+                      <span style="color: brown;">2.389.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s7">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m7" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài may mắn Đại Cát 35cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">2.500.000₫</strike>
+                                    <span style="color: brown;">2.389.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 35cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>KKinh doanh thịnh vượng; Chữ trên tay vẩy: Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); Nhất vàng: thu hút tài lộc, kinh doanh phát tài</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>    
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/m8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Mèo thần tài Niên Niên Phú Quý 35cm</h5>
+                      <strike style="color: rgb(163, 154, 154)">3.509.000₫</strike>
+                      <span style="color: brown;">2.990.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s8">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m8" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="m8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Mèo thần tài Niên Niên Phú Quý 35cm</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">3.509.000₫</strike>
+                                    <span style="color: brown;">2.990.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kích Thước:</i></b> 35cm </p>
+                                    <p><b><i>Phụ kiện:</i></b>Dây chuông cổ, pin AA hoặc dây sạc điện, tấm đệm gấm đỏ.</p>
+                                    <p><b><i>Ý nghĩa:</i></b>Kim Vận Chiêu Tài (may mắn đến mang nhiều tiền tài); – Chữ trên câu đối: Kim Vận Chiêu Phúc; Bao tiền trước bụng ngụ ý tiền của dồi dào, làm ăn phát đạt</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4">
+                <div class="row"><img src="../img/banner1.png" alt="" srcset=""></div>
+                <div class="row"><img src="../img/banner2.jpg" alt="" srcset="" style="margin-top: 12px;"> </div>
+            </div>
+            <div class="col-8"><img src="../img/banner3.jpg" alt="" style="width: 1000px;height: 900px;"></div>
+        </div>
+        <div class="row mt-3 "><img src="../img/banner4.jpg" alt="" srcset="" style="margin-left: 2.5%;"></div>
+        <!--Menu Tram huong-->
+        <div class="row mt-4">
+            <h2 style="color: brown;text-align: center;">THÁC KHÓI TRẦM HƯƠNG</h2>
+
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Nước Trầm Hương Mèo May Mắn</h5>
+                      <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                      <span style="color: brown;">2.750.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s9">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t1" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Nước Trầm Hương Mèo May Mắn</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                                    <span style="color: brown;">2.750.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D30cmxR17cmxC31cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b> Đế gỗ, vòng đèn LED có dây sạc, tượng mèo thần tài gốm sứ + bể chứa nước gốm sứ + tượng mèo nằm mini gốm sứ, đồng tiền đỏ, nhành cây giả, máy bơm nước, máy tạo khói</p>
+                                    <p><b><i>Ý Nghĩa:</i></b> Thu hút cơ hội và tiền bạc, đặt tại quầy thu ngân hoặc nơi kinh doanh chiêu tài lộc, tiền vô nước như nước, vượng khí, may mắn</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                  <img src="../img/t3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-text">Thác Khói Trầm Hương Hươu Lộc Vọng Nguyệt</h5>
+                    <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                    <span style="color: brown;">1.950.000₫ </span><br>
+                    <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s11">Thêm</button>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t3" style="margin-left: 20px;">
+                          Xem Chi Tiết
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="t3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Hươu Lộc Vọng Nguyệt</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                                  <span style="color: brown;">1.950.000₫ </span><br>
+                                  <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                  <p><b><i>Kich thước:</i></b> D39cm x R14cm x C57cm </p>
+                                  <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                  <p><b><i>Set Gồm:</i></b> đế gỗ, vòng đèn LED, bể chứa nước gốm sứ, tượng Hươu trắng gốm sứ, nhành cây giả, áng mây trắng, máy bơm nước, máy tạo khói</p>
+                                  <p><b><i>Ý Nghĩa:</i></b> tạo nên cảm giác bình yên, tĩnh lặng; chiêu tài, hút lộc, vượng khí; thu hút những dòng năng lượng tích cực và xua đuổi đi dòng năng lượng xấu, trược khí</p>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+          </div>    
+          <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                  <img src="../img/t4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body"> 
+                    <h5 class="card-text">Thác Khói Trầm Hương Hươu Lộc Chiêu Tài</h5>
+                    <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                    <span style="color: brown;">1.490.000₫ </span><br>
+                    <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s12">Thêm</button>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t4" style="margin-left: 20px;">
+                          Xem Chi Tiết
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="t4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Hươu Lộc Chiêu Tài</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                                  <span style="color: brown;">1.490.000₫ </span><br>
+                                  <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                  <p><b><i>Kich thước:</i></b>D35cm x R14cm x C37cm</p>
+                                  <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                  <p><b><i>Set Gồm:</i></b> đế gỗ, vòng đèn LED có dây sạc, bể chứa nước gốm sứ, tượng Hươu gốm sứ, nhành cây giả, máy bơm nước, máy tạo khói, không kèm cây thật</p>
+                                  <p><b><i>Ý Nghĩa:</i></b>Hươu vượng tài lộc, công danh, may mắn thích hợp tặng tân gia, khai trương, tặng sếp dịp sinh nhật, thăng chức; tạo nên cảm giác bình yên, tĩnh lặng</p>
+                              </div>
+                              <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+          </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Nước Phong Thuỷ Mèo Thần Tài</h5>
+                      <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                      <span style="color: brown;">2.799.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s10">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t2" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Nước Phong Thuỷ Mèo Thần Tài</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">3.400.000₫</strike>
+                                    <span style="color: brown;">2.799.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D46cm x R20cm x C52cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b> đế gỗ, vòng đèn LED có dây sạc, tượng mèo thần tài gốm sứ + bể chứa nước gốm sứ + chậu trồng cây gốm sứ (không bao gồm cây), khánh đỏ, khung gỗ uốn lượn, máy bơm nước, máy tạo khói</p>
+                                    <p><b><i>Ý Nghĩa:</i></b> thu hút cơ hội và tiền bạc, đặt tại quầy thu ngân hoặc nơi kinh doanh chiêu tài lộc, tiền vô nước như nước, vượng khí, may mắn</p>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            
+            
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Khói Trầm Hương Huyền Thức Hương Lư</h5>
+                      <strike style="color: rgb(163, 154, 154)">1.000.000₫</strike>
+                      <span style="color: brown;">799.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s13">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t5" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Huyền Thức Hương Lư</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">1.000.000₫</strike>
+                                    <span style="color: brown;">799.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D30cmxR30cmxC10cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b> Tượng thiền sư sứ, đèn led đế sen,lư hương hoa sen, bộ dây điện sạc đèn</p>
+                                    <p><b><i>Ý Nghĩa:</i></b> Tạo nên cảm giác bình yên, tĩnh lặng; chiêu tài, thu hút những dòng năng lượng tích cực và xua đuổi đi dòng năng lượng xấu, trược khí</p>
+                               
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Khói Trầm Hương Thiếu Nữ Vọng Nguyệt</h5>
+                      <strike style="color: rgb(163, 154, 154)">1.400.000₫</strike>
+                      <span style="color: brown;">450.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s14">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t6" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Thiếu Nữ Vọng Nguyệt</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">1.400.000₫</strike>
+                                    <span style="color: brown;">450.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D32cmxR10cmxC32cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b> Tượng nàng thiếu nữ bằng gốm sứ cao cấp, gia công tỉ mỉ, tinh xảo; Khung đèn led bằng sắt chắc chắn, đèn led chạy bằng sạc USB; Kệ gỗ; Cây hoa giả; Hoa sen cắm nhang; Vòng trầm</p>
+                                    <p><b><i>Ý Nghĩa:</i></b> Giúp làm dịu tâm trí, xua tan căng thẳng và kết nối không gian an nhiên, phong nhã bên trong mỗi người.</p>
+                               
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger">Thêm</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Khói Trầm Hương Phật Thủ Khuyên Đăng</h5>
+                      <strike style="color: rgb(163, 154, 154)">1.500.000₫</strike>
+                      <span style="color: brown;">1.200.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s15">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t7" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Phật Thủ Khuyên Đăng</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">1.500.000₫</strike>
+                                    <span style="color: brown;">1.200.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D25cmxR14cmxC10cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b>Tượng gốm sứ cao cấp, Đèn led hoa sen đế gỗ, Tượng thiền sư trắng, Hoa sen trắng</p>
+                                    <p><b><i>Ý Nghĩa:</i></b>Tạo nên cảm giác bình yên, tĩnh lặng; chiêu tài, thu hút những dòng năng lượng tích cực và xua đuổi đi dòng năng lượng xấu, trược khí</p>
+                               
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>    
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/t8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text">Thác Khói Trầm Hương Bát Nhã Tâm Kinh (Xanh Ngọc)</h5>
+                      <strike style="color: rgb(163, 154, 154)">2.290.000₫</strike>
+                      <span style="color: brown;">1.990.000₫ </span><br>
+                      <form action="" class="d-flex">
+                        <button class="btn btn-danger" id="s16">Thêm</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#t8" style="margin-left: 20px;">
+                            Xem Chi Tiết
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="t8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Thác Khói Trầm Hương Bát Nhã Tâm Kinh (Xanh Ngọc)</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <strike style="color: rgb(163, 154, 154)">2.290.000₫</strike>
+                                    <span style="color: brown;">1.990.000₫ </span><br>
+                                    <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                    <p><b><i>Kich thước:</i></b>D21cmxR15cmxC11cm </p>
+                                    <p><b><i>Chất liệu:</i></b>Gốm sứ / gỗ / nhựa / hợp kim</p>
+                                    <p><b><i>Set Gồm:</i></b>Tượng gốm tử sa cao cấp, Đèn led Bát Nhã Tâm Kinh đế gỗ, Tượng thiền sư trắng, Hoa sen hồng, Vòng tràng hạt</p>
+                                    <p><b><i>Ý Nghĩa:</i></b>Tạo nên cảm giác bình yên, tĩnh lặng; chiêu tài, thu hút những dòng năng lượng tích cực và xua đuổi đi dòng năng lượng xấu, trược khí</p>
+                               
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <img src="../img/banner5.jpg" alt="" srcset="" style="margin-left: -20px;">
+        </div>
+        <div class="row mt-4">
+            <h2 style="color: brown;text-align: center;">Vài Thứ Khác</h2>
+        </div>
+        <!--mot vai thu khac-->
+          <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                   <img src="../img/a1.jpg" class="card-img-top" alt="...">
+                   <div class="card-body"> 
+                     <h5 class="card-text"  >Túi Vàng Tài Lộc – Kinh Doanh Hồng Phát Cao</h5>
+                     <strike style="color: rgb(163, 154, 154)">700.000₫</strike>
+                     <span style="color: brown;">390.000₫ </span><br>
+                     <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s17">Thêm</button>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#a1" style="margin-left: 20px;">
+                           Xem Chi Tiết
+                       </button>
+                       
+                       <!-- Modal -->
+                       <div class="modal fade" id="a1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">
+                               <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Túi Vàng Tài Lộc – Kinh Doanh Hồng Phát Cao</h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                               </div>
+                               <div class="modal-body">
+                                   <strike style="color: rgb(163, 154, 154)">700.000₫</strike>
+                                   <span style="color: brown;">390.000₫ </span><br>
+                                   <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                   <p><b><i>Kich thước:</i></b>Cao 30cm</p>
+                                   <p><b><i>Chất liệu:</i></b>Nhựa resin tổng hợp cao cấp, gia công tỉ mỉ, màu sắc bắt mắt</p>
+                                   
+                                   <p><b><i>Không Gian Trang Trí:</i></b>Phòng khách, bàn làm việc, quầy thu ngân, cửa hàng kinh doanh, văn phòng công ty…</p>
+                                   <p><b><i>Ý Nghĩa:</i></b>Túi vàng kim bảo cầu tài lộc, cầu sự sung túc giàu có, chiêu tài hút lộc, kinh doanh phát đạt</p>
+                               </div>
+                               <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               
+                               </div>
+                           </div>
+                           </div>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-3 ">
+                <div class="card" style="width: 18rem;">
+                   <img src="../img/a2.jpg" class="card-img-top" alt="...">
+                   <div class="card-body"> 
+                     <h5 class="card-text">Rồng Cây Vàng – Quà Tân Gia, Khai Trương</h5>
+                     <strike style="color: rgb(163, 154, 154)">2.700.000₫</strike>
+                     <span style="color: brown;">2.390.000₫ </span><br>
+                     <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s18">Thêm</button>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#a2" style="margin-left: 20px;">
+                           Xem Chi Tiết
+                       </button>
+                       
+                       <!-- Modal -->
+                       <div class="modal fade" id="a2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">
+                               <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Rồng Cây Vàng – Quà Tân Gia, Khai Trương</h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                               </div>
+                               <div class="modal-body">
+                                   <strike style="color: rgb(163, 154, 154)">2.700.000₫</strike>
+                                   <span style="color: brown;">2.390.000₫ </span><br>
+                                   <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                   <p><b><i>Kich thước:</i></b>D30cmxR14cmxC31cm</p>
+                                   <p><b><i>Chất liệu:</i></b>Polyresin mạ vàng. Gia công đẹp tỉ mỉ, tinh xảo, không phai màu</p>
+                                   
+                                   <p><b><i>Công Dụng:</i></b> trang trí nhà cửa, quà tặng khai trương, tân gia, tặng sếp cao cấp, phong thủy thế gia</p>
+                                   <p><b><i>Ý Nghĩa:</i></b>Chiêu tài lộc trong kinh doanh, giúp sự nghiệp thăng tiến, mở đường tài lộc cho gia chủ.</p>
+                               </div>
+                               <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               
+                               </div>
+                           </div>
+                           </div>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-3 ">
+                <div class="card" style="width: 18rem;">
+                   <img src="../img/a4.jpg" class="card-img-top" alt="...">
+                   <div class="card-body"> 
+                     <h5 class="card-text">Cóc Thiềm Thừ Cây Lúa – Quà Tân Gia, Khai Trương</h5>
+                     <strike style="color: rgb(163, 154, 154)">1.000.000₫</strike>
+                     <span style="color: brown;">590.000₫ </span><br>
+                     <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s19">Thêm</button>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#a4" style="margin-left: 20px;">
+                           Xem Chi Tiết
+                       </button>
+                       
+                       <!-- Modal -->
+                       <div class="modal fade" id="a4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">
+                               <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Cóc Thiềm Thừ Cây Lúa – Quà Tân Gia, Khai Trương</h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                               </div>
+                               <div class="modal-body">
+                                   <strike style="color: rgb(163, 154, 154)">1.000.000₫</strike>
+                                   <span style="color: brown;">590.000₫ </span><br>
+                                   <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                   <p><b><i>Kich thước:</i></b>D30cmxR14cmxC31cm</p>
+                                   <p><b><i>Chất liệu:</i></b>Polyresin mạ vàng. Gia công đẹp tỉ mỉ, tinh xảo, không phai màu</p>
+                                   
+                                   <p><b><i>Công Dụng:</i></b> Trang trí nhà cửa, quà tặng khai trương, tân gia, tặng sếp cao cấp, phong thủy thế gia</p>
+                                   <p><b><i>Ý Nghĩa:</i></b>Chiêu tài lộc trong kinh doanh, giúp sự nghiệp thăng tiến, mở đường tài lộc cho gia chủ.</p>
+                               </div>
+                               <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               
+                               </div>
+                           </div>
+                           </div>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-3 ">
+                <div class="card" style="width: 18rem;">
+                   <img src="../img/a3.jpg" class="card-img-top" alt="...">
+                   <div class="card-body"> 
+                     <h5 class="card-text">Hồ Lô Cây Vàng – Quà Tân Gia, Khai Trương</h5>
+                     <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                     <span style="color: brown;">1.590.000₫ </span><br>
+                     <form action="" class="d-flex">
+                      <button class="btn btn-danger" id="s20">Thêm</button>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#a3" style="margin-left: 20px;">
+                           Xem Chi Tiết
+                       </button>
+                       
+                       <!-- Modal -->
+                       <div class="modal fade" id="a3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">
+                               <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Hồ Lô Cây Vàng – Quà Tân Gia, Khai Trương</h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                               </div>
+                               <div class="modal-body">
+                                   <strike style="color: rgb(163, 154, 154)">2.000.000₫</strike>
+                                   <span style="color: brown;">1.590.000₫ </span><br>
+                                   <p><b><i>Xuất sứ:</i></b>Nhật Bản</p>
+                                   <p><b><i>Kich thước:</i></b>D24cm17cmxC27cm</p>
+                                   <p><b><i>Chất liệu:</i></b>Polyresin mạ vàng. Gia công đẹp tỉ mỉ, tinh xảo, không phai màu</p>
+                                   
+                                   <p><b><i>Công Dụng:</i></b> Trang trí nhà cửa, quà tặng khai trương, tân gia, tặng sếp cao cấp, phong thủy thế gia</p>
+                                   <p><b><i>Ý Nghĩa:</i></b>Chiêu tài lộc trong kinh doanh, giúp sự nghiệp thăng tiến, mở đường tài lộc cho gia chủ.</p>
+                               </div>
+                               <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               
+                               </div>
+                           </div>
+                           </div>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+          </div>  
+            
+        <div class="row mt-4">
+            <img src="../img/banner6.jpg" alt="" style="margin-left: -20px;">
+        </div>
+        
+        <div class="row mt-4" >
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconLike.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Sale Khủng Đến 50%</h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconGiaoHang.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Giao Hàng Nhanh </h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconCSKH.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Hỗ Trợ 24/7</h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconDoiTRa.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Bảo Hành 3 Tháng</h5>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5" style="background-color: brown;">
+            <div class="col-3" style="color: aliceblue;">
+                <h5 style="text-align: center;margin-top: 20px;">NATY.VN</h5>
+                <br>
+                <p style="margin-left: 20px;margin-right: 20px;">Naty.vn chuyên cung cấp các sản phẩm decor trang trí phong thuỷ, quà tặng khai trương, quà tặng tân gia, quà tặng sếp, quà tặng cưới, qua mừng thọ,...cam kết sản phẩm chất lượng, dịch vụ uy tín, hỗ trợ bảo hành và đổi trả. Liên hệ ngay với chúng tôi để được tư vấn! 0909 784 262</p>
+            </div>
+            <div class="col-3" style="color: aliceblue;">
+              <h5 style="text-align: center;margin-top: 20px;">THÔNG TIN LIÊN HỆ</h5>
+              <br>
+              <ul>
+                <li>Địa chỉ:  147 Tân Lập 2, khu phố 6, phường Hiệp Phú, quận 9, HCM (gọi trước khi đến)</li>
+                <li>Hotline: 0909 784 262 </li>
+                <li>Thời gian làm việc: 8h30-17h30 các ngày trong tuần</li>
+              </ul>
+          </div>
+          <div class="col-3" style="color: aliceblue;">
+            <h5 style="text-align: center;margin-top: 20px;">CHÍNH SÁCH CHUNG</h5>
+            <br>
+            <ul>
+              <li>Hướng dẫn mua hàng</li>
+              <li>Hướng dẫn thanh toán</li>
+              <li>Phương thức giao nhận</li>
+              <li>Chính sách đổi trả và hoàn tiền </li>
+              <li>Chính sách bảo mật thông tin</li>
+              <li>Sitemap</li>
+            </ul>
+        </div>
+        <div class="col-3" style="color: aliceblue;">
+          <p style="margin-top: 20px;margin-right: 20px;margin-left: 20px;">Tên hộ kinh doanh: HỘ KINH DOANH CỬA HÀNG NATYSHOP</p>
+          
+          <p style="margin-right: 20px;margin-left: 20px;">Địa chỉ trụ sở kinh doanh: Số 147H đường Tân Lập 2, khu phố 6, phường Hiệp Phú, thành phố Thủ Đức, thành phố Hồ Chí Minh, Việt Nam</p>
+          
+          <p style="margin-right: 20px;margin-left: 20px;">Điện thoại: 0339 560 430 <br>
+            Email: daothiaivi@gmail.com</p>
+            <img src="../img/logoSaleNoti-300x114.png" alt="">
+      </div>
+        </div>
+        <div class="row bg-dark">
+          <p style="text-align: center;color: gray;">Hotline: 0909 784 262 <br>
+            ©Mèo thần tài Naty.vn</p>
+        </div>
+        <div class="row" style="height: 0px;">
+          <select name="" id="" style="border: 0px;height: 0px;" class="null invisible">
+          <option id="w1" value="Mèo thần tài vẫy tay 13cm chạy bằng pin"></option>
+          <option value="315.000₫" id="q1"></option>
+
+          <option id="w2" value="Mèo thần tài thiên kim vạn lượng"></option>
+          <option value="799.000₫" id="q2"></option>
+
+          <option id="w3" value="Mèo thần tài thỏi vàng 16cm"></option>
+          <option value="389.000₫" id="q3"></option>
+
+          <option id="w4" value="Mèo Thần Tài Có Câu Đối 16cm"></option>
+          <option value="389.000₫" id="q4"></option>
+
+          <option id="w5" value="Mèo thần tài song vàng hưng thịnh 35cm"></option>
+          <option value="1.799.000₫" id="q5"></option>
+
+          <option id="w6" value="Mèo thần tài kim vận hồng phát 23cm"></option>
+          <option value="1.799.000₫" id="q6"></option>
+
+          <option id="w7" value="Mèo thần tài may mắn Đại Cát 35cm"></option>
+          <option value="2.389.000₫" id="q7"></option>
+
+          <option id="w8" value="MMèo thần tài Niên Niên Phú Quý 35cm"></option>
+          <option value="2.990.000₫" id="q8"></option>
+
+          <option id="w9" value="Thác Nước Trầm Hương Mèo May Mắn"></option>
+          <option value="2.750.000₫" id="q9"></option>
+
+          <option id="w10" value="Thác Nước Phong Thuỷ Mèo Thần Tài"></option>
+          <option value="2.799.000₫" id="10"></option>
+
+          <option id="w11" value="Thác Khói Trầm Hương Hươu Lộc Vọng Nguyệt"></option>
+          <option value="1.950.000₫" id="q11"></option>
+
+          <option id="w12" value="Thác Khói Trầm Hương Hươu Lộc Chiêu Tà"></option>
+          <option value="1.490.000₫" id="q12"></option>
+
+          <option id="w13" value="Thác Khói Trầm Hương Huyền Thức Hương Lư"></option>
+          <option value="799.000₫" id="q13"></option>
+
+          <option id="w14" value="Thác Khói Trầm Hương Thiếu Nữ Vọng Nguyệt"></option>
+          <option value="450.000₫" id="q14"></option>
+
+          <option id="w15" value="Thác Khói Trầm Hương Phật Thủ Khuyên Đăng"></option>
+          <option value="1.200.000₫" id="q15"></option>
+
+          <option id="w16" value="Thác Khói Trầm Hương Bát Nhã Tâm Kinh (Xanh Ngọc)"></option>
+          <option value="1.990.000₫" id="q16"></option>
+
+          <option id="w17" value="Túi Vàng Tài Lộc – Kinh Doanh Hồng Phát Cao"></option>
+          <option value=" 390.000₫" id="q17"></option>
+
+          <option id="w18" value="Rồng Cây Vàng – Quà Tân Gia, Khai Trương"></option>
+          <option value=" 2.390.000₫" id="q18"></option>
+
+          <option id="w19" value="Cóc Thiềm Thừ Cây Lúa – Quà Tân Gia, Khai Trương"></option>
+          <option value="590.000₫" id="q19"></option>
+
+          <option id="w20" value="Hồ Lô Cây Vàng – Quà Tân Gia, Khai Trương"></option>
+          <option value="1.590.000₫" id="q20"></option>
+
+        </select>
+          
+        </div>
+
+    </div>
+</body>
+<Script>
+  $(document).ready(function(){
+    $('#s1').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w1").val();
+      let gia = $("#q1").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s2').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w2").val();
+      let gia = $("#q2").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s3').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w3").val();
+      let gia = $("#q3").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s4').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w4").val();
+      let gia = $("#q4").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s5').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w5").val();
+      let gia = $("#q5").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s6').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w6").val();
+      let gia = $("#q6").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s7').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w7").val();
+      let gia = $("#q7").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s8').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w8").val();
+      let gia = $("#q8").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s9').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w9").val();
+      let gia = $("#q9").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s10').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w10").val();
+      let gia = $("#q10").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s11').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w11").val();
+      let gia = $("#q11").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s12').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w12").val();
+      let gia = $("#q12").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s13').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w13").val();
+      let gia = $("#q13").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s14').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w14").val();
+      let gia = $("#q14").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s15').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w15").val();
+      let gia = $("#q15").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s16').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w16").val();
+      let gia = $("#q16").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s17').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w17").val();
+      let gia = $("#q17").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s18').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w18").val();
+      let gia = $("#q18").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s19').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w19").val();
+      let gia = $("#q19").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+    $('#s20').click(function(e){
+      e.preventDefault();
+      let tensp=$("#w20").val();
+      let gia = $("#q20").val();
+
+      localStorage.setItem("tensp", tensp);
+      localStorage.setItem("gia", gia);
+
+      window.location.href="shopping.html";
+    });
+   
+
+  });
+</Script>
+<style>
+  .invisible {
+  visibility: hidden !important;
+}
+</style>
+</html>
